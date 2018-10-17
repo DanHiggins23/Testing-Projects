@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 
 public class WaitTest {
     public WebDriver driver = null;
-    ExtentReports report = new ExtentReports("/Users/DanHiggins/Desktop/Reports/wait_tests_report.html", true);
+    ExtentReports report = new ExtentReports("/Users/DanHiggins/Downloads/Reports/wait_tests_report.html", true);
     ExtentTest test;
 
     @Before
