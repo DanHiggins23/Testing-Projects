@@ -1,9 +1,7 @@
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -12,14 +10,16 @@ import java.io.IOException;
 import static org.junit.Assert.assertEquals;
 
 public class SubmitText {
-    public WebDriver driver = null;
+    public static WebDriver driver = null;
 
     //Initilize reports and set path
-    ExtentReports report = new ExtentReports("/Users/DanHiggins/Desktop/Reports/demo_site_report.html", true);
-    ExtentTest test;
+    static ExtentReports report = new ExtentReports("/Users/DanHiggins/Downloads/Reports/demo_site_report.html", true);
 
-    @Before
-    public void setup() {
+    ExtentTest test;
+    ExtentTest test2;
+
+    @BeforeClass
+    public static void starter() {
         System.setProperty("webdriver.chrome.driver", "/Users/DanHiggins/Desktop/chromedriver");
         driver = new ChromeDriver();
     }
@@ -54,8 +54,31 @@ public class SubmitText {
         assertEquals("**Successful Login**", login.searchText().getText());
     }
 
-    @After
-    public void teardown() {
+    @Test
+    public void checkTitle() throws InterruptedException, IOException{
+        //Start test
+        test2 = report.startTest("Ensure that the correct page is opening");
+
+        driver.get("http://thedemosite.co.uk/login.php");
+        test2.log(LogStatus.INFO, "Browser opened");
+
+        if (driver.getTitle().equals("Login example page to test the PHP MySQL online system")) {
+            test2.log(LogStatus.PASS, "Test passed");
+        } else {
+            test2.log(LogStatus.FAIL, "Test failed");
+        }
+
+        report.endTest(test2);
+        assertEquals("Login example page to test the PHP MySQL online system", driver.getTitle());
+    }
+
+//    @After
+//    public void teardown() {
+//        report.flush();
+//    }
+
+    @AfterClass
+    public static void finisher() {
         report.flush();
         driver.quit();
     }
