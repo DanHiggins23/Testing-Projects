@@ -7,3 +7,4 @@ The following automated tests have been utilised - all projects are mavern with 
    - Cucumber
    - Katalon
    - JUnit
+   - Extent Reports
