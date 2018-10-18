@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dce73245-582e-4118-b5ae-a2d98b2e0bae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cucumber_param.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Step.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cucumber_tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cucumber_tests/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dce73245-582e-4118-b5ae-a2d98b2e0bae" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,13 +23,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="38" />
-          <entry key="java" value="1053" />
+          <entry key="java" value="1070" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1053" />
+          <entry key="JAVA" value="1070" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Substeps" value="27" />
           <entry key="XML" value="2" />
@@ -69,11 +59,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Step.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="253">
+              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
               <folding>
-                <element signature="e#1465#1466#0" expanded="true" />
-                <element signature="e#1494#1495#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1467#1468#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,13 +152,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cucumber_param" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumber_param" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -176,7 +160,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539884106121" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539885097776" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -254,7 +238,7 @@
     <frame x="0" y="22" width="1366" height="746" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -263,7 +247,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3288889" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3288889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,11 +313,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Step.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="253">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
           <folding>
-            <element signature="e#1465#1466#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
           </folding>
         </state>
       </provider>
