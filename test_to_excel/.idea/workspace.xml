@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6d0b7f8-e8f5-462a-a7a4-289c9e5b490c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../cucumber_param/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cucumber_param/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../login_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../login_test/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f6d0b7f8-e8f5-462a-a7a4-289c9e5b490c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +14,7 @@
     <session id="-1965892475">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -182,7 +180,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539898219072" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539939727052" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -231,7 +229,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1366" height="746" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
